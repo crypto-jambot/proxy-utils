@@ -15,7 +15,8 @@
     "start": "node .",
     "build": "tsc -p tsconfig.build.json && npm run moveMissingFiles",
     "dev": "nodemon src/server.ts",
-    "moveMissingFiles": "cp src/*.d.ts dist"
+    "moveMissingFiles": "cp src/*.d.ts dist",
+    "patch": "npm version patch --git-tag-version"
   },
   "repository": {
     "type": "git",
