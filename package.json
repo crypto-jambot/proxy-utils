@@ -1,6 +1,6 @@
 {
   "name": "@crypto-jambot/proxy-utils",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Javascript SDK for ease of communication with JAM etheruem node.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
